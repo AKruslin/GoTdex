@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-//VIewModel
-
-
-
-
 //MARK: View
 
 struct HouseDetailView: View {

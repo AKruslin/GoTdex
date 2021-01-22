@@ -14,5 +14,4 @@ struct NobleHouse: Codable, Identifiable {
     let titles, seats: [String]
     let currentLord: String
     let founded: String
-    
 }

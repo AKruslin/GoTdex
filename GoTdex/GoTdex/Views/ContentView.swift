@@ -12,10 +12,10 @@ struct ContentView: View {
         NavigationView{
             ZStack {
                 GeometryReader { geo in
-                Image("Westeros")
-                    .resizable().scaledToFill()
-                    .scaleEffect(1)
-                    .offset(x: -225.0)
+                    Image("Westeros")
+                        .resizable().scaledToFill()
+                        .scaleEffect(1)
+                        .offset(x: -225.0)
                 }
                 VStack {
                     HStack {
@@ -26,15 +26,15 @@ struct ContentView: View {
                             .shadow(color: .black, radius: 0, x: 2, y: 2)
                     }.frame(maxWidth: .infinity,alignment: .center)
                     
-                        NavigationLink(destination: NobleHouseView())
-                            {
-                            Text("Enter the world")
+                    NavigationLink(destination: NobleHouseView())
+                    {
+                        Text("Enter the world")
                             .font(.headline)
                             .fontWeight(.bold).shadow(color: .black, radius: 1, x: 1, y: 1)
-                        }
-                        .padding(6)
-                        .background(Color.green)
-                        .cornerRadius(30)
+                    }
+                    .padding(6)
+                    .background(Color.green)
+                    .cornerRadius(30)
                     
                 }
             }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MapView: View {
-
+    
     init(nobleLocation: CGSize)
     {
         
@@ -25,7 +25,7 @@ struct MapView: View {
     
     @State var resetLocationOffset = false
     
-        var body: some View {
+    var body: some View {
         ZStack {
             Image("Westeros")
                 .resizable()

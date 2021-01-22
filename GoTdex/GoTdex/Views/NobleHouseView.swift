@@ -44,7 +44,6 @@ struct NobleHouseView: View {
             }
         }.edgesIgnoringSafeArea(.all)
     }
-    
 }
 
 
